@@ -1,0 +1,11 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+<script src="/js/quote.js"></script>
+<h1> Welcome to Quoting Dojo!</h1>
+<form action="/quotes" method="post">
+    <label for="name">Your name: <input type="text" name="name"></label><br/>
+    <label for="quote" id="quotelabel">Your quote: <textarea name="quote" id="quote"></textarea></label><br/>
+    <input type="submit" value="Add my quote!">
+    <button type="button" id="skip">Skip to quotes!</button>
+</form>

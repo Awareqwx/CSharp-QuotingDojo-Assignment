@@ -1,0 +1,28 @@
+/*Write all of your CSS here*/
+body{
+    font-family: Arial;
+}
+
+#quotelabel{
+    display: inline-block;
+    margin: 10px auto;
+}
+
+#quote{
+    margin: auto auto 10px auto;
+    width: 150px;
+    height: 100px;
+    vertical-align: top;
+}
+
+.name{
+    margin: auto auto auto 40px;
+    width: 400px;
+    padding: 0 0 5px 20px;
+    border-bottom: 2px solid black;
+    display: inline-block;
+}
+
+.text{
+    margin-bottom: 10px;
+}
